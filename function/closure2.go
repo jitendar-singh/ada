@@ -2,10 +2,10 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 
-	for i:=10.0;i<100.0;i+=10.0{
-		rad := func()float64 {
+	for i := 10.0; i < 100.0; i += 10.0 {
+		rad := func() float64 {
 			return i * 39.370
 		}()
 		fmt.Println("%.2f Meter = %.2f Inch\n", i, rad)

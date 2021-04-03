@@ -2,13 +2,12 @@ package main
 
 import "fmt"
 
-
 var (
-	area = func(l int, b int)int {
-	return l * b
-}
+	area = func(l int, b int) int {
+		return l * b
+	}
 )
 
-func main()  {
-	fmt.Println(area(3,5))
+func main() {
+	fmt.Println(area(3, 5))
 }

@@ -2,10 +2,10 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	var choice int
 	fmt.Println("Enter 1 for student or 2 if a professional")
-	fmt.Scanf("%d",&choice)
+	fmt.Scanf("%d", &choice)
 
 	switch choice {
 	case 1:
@@ -13,10 +13,10 @@ func main()  {
 	case 2:
 		fmt.Println("I am a Professional")
 	default:
-		panic(fmt.Sprintf("Incorrect choice %d",choice))
+		panic(fmt.Sprintf("Incorrect choice %d", choice))
 	}
 	defer func() {
-		choice :=recover()
+		choice := recover()
 		fmt.Println(choice)
 	}()
 }

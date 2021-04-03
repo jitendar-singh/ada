@@ -5,7 +5,7 @@ import (
 	"reflect"
 )
 
-func main()  {
+func main() {
 	var names []string
 	fmt.Println(reflect.TypeOf(names).Kind())
 	{

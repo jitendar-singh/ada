@@ -5,7 +5,7 @@ import (
 	"reflect"
 )
 
-func main()  {
+func main() {
 	var employee = map[string]int{}
 	fmt.Println(reflect.TypeOf(employee).Kind())
 }

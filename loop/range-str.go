@@ -2,9 +2,9 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	str := "hello sunny"
-	for  range str{
+	for range str {
 		fmt.Println(str)
 	}
 }

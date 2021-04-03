@@ -2,11 +2,10 @@ package main
 
 import (
 	"fmt"
-
 )
 
-func main(){
-	map1 := map[string]int{"Jitendar":1,"Sunny":2,"Monalisa":3}
+func main() {
+	map1 := map[string]int{"Jitendar": 1, "Sunny": 2, "Monalisa": 3}
 	fmt.Println(map1)
 	{
 		func() {
