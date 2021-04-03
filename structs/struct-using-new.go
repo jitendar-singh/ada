@@ -3,12 +3,12 @@ package main
 import "fmt"
 
 type student struct {
-	name string
-	age int
+	name   string
+	age    int
 	stream string
 }
 
-func main()  {
+func main() {
 	var std1 = new(student)
 	std1.name = "Jitendar"
 	std1.age = 32

@@ -13,9 +13,10 @@ func main() {
 	names[0] = "sunny"
 	names[1] = "lola kutti"
 	names[2] = "Monlaisa"
-	names = remove(names,1)
+	names = remove(names, 1)
 	fmt.Println(names)
 }
+
 //# Dry run
 //["sunny","sony","tuni","guni","muni"]
 //s=2

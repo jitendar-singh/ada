@@ -7,8 +7,8 @@ import (
 
 type employees struct {
 	FirstName string `json:"first_name"`
-	LastName string `json:"last_name"`
-	City string `json:"city"`
+	LastName  string `json:"last_name"`
+	City      string `json:"city"`
 }
 
 func main() {
@@ -19,6 +19,6 @@ func main() {
 	}`
 
 	emp1 := new(employees)
-	json.Unmarshal([]byte(json_string),emp1)
+	json.Unmarshal([]byte(json_string), emp1)
 	fmt.Println(emp1)
 }

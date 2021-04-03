@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func main()  {
+func main() {
 	today := time.Now()
 	fmt.Println(today)
 	switch today.Day() {

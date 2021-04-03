@@ -9,11 +9,11 @@ type Salary struct {
 }
 type Employee struct {
 	FirstName, LastName, Email string
-	Age int
-	MonthlySalary []Salary
+	Age                        int
+	MonthlySalary              []Salary
 }
 
-func main()  {
+func main() {
 	e := Employee{
 		FirstName: "Jitendar",
 		LastName:  "Singh",
@@ -28,7 +28,7 @@ func main()  {
 		},
 	}
 	fmt.Println(e)
-	for _,values := range e.MonthlySalary{
+	for _, values := range e.MonthlySalary {
 		fmt.Println(values)
 	}
 }

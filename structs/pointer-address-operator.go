@@ -3,13 +3,13 @@ package main
 import "fmt"
 
 type plant struct {
-	name string
-	indoor bool
+	name    string
+	indoor  bool
 	flowers bool
-	fruits bool
+	fruits  bool
 }
 
-func main()  {
+func main() {
 	var plant1 = &plant{}
 	plant1.name = "Rubber Plant"
 	plant1.indoor = true

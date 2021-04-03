@@ -6,18 +6,18 @@ import (
 )
 
 type Student struct {
-	Age   int    `json:"age"`
-	Class int    `json:"class"`
-	Roll  int    `json:"roll"`
+	Age   int `json:"age"`
+	Class int `json:"class"`
+	Roll  int `json:"roll"`
 }
 
-func main()  {
+func main() {
 	json_string := `{
 	"age": 1,
 	"class": 4,
 	"roll": 23
 	}`
 	Ramesh := new(Student)
-	json.Unmarshal([]byte(json_string),Ramesh)
+	json.Unmarshal([]byte(json_string), Ramesh)
 	fmt.Println(Ramesh)
 }
